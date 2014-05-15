@@ -11,3 +11,4 @@ RUN dpkg -i puppetlabs-release-wheezy.deb
 # install puppet
 RUN apt-get -y update
 RUN apt-get -y install puppet
+RUN gem install r10k librarian-puppet
